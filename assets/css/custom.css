@@ -1,120 +1,55 @@
-@font-face {
-    font-family: 'icomoon';
-    src:url('../fonts/icomoon.eot');
-    src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.woff') format('woff'),
-    url('../fonts/icomoon.ttf') format('truetype'),
-    url('../fonts/icomoon.svg#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Use the following CSS code if you want to use data attributes for inserting your icons */
-[data-icon]:before {
-    font-family: 'icomoon';
-    content: attr(data-icon);
-    speak: none;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-/* Use the following CSS code if you want to have a class per icon */
-/*
-Instead of a list of all class selectors,
-you can use the generic selector below, but it's slower:
-[class*="icon-"] {
-*/
-.icon-facebook, .icon-twitter, .icon-github, .icon-linkedin {
-    font-family: 'icomoon';
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-}
-.icon-facebook:before {
-    content: "\e000";
-}
-.icon-twitter:before {
-    content: "\e001";
-}
-.icon-github:before {
-    content: "\e002";
-}
-.icon-linkedin:before {
-    content: "\e003";
-}
-
-/* General
-----------------------------------------------------------------------------------------------------*/
-body {
-    padding-top: 20px;
-    padding-bottom: 40px;
-}
-.jumbotron {
+.header {
     text-align: center;
+    padding: 30px 30px;
+}
+.header h1 {
+
+}
+.header p {
+
 }
 
-/* Further info blocks
-----------------------------------------------------------------------------------------------------*/
-.further-info {
-    text-align: center;
-    vertical-align: top;
-    position: relative;
-    height: 460px;
+.row {
+    margin-bottom: 15px;
 }
 
-.further-info-link-block {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-/* Social links
-----------------------------------------------------------------------------------------------------*/
-
-ul.social {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 50px;
-    border-bottom: 1px solid #efefef;
-    margin-bottom: 20px;
-}
-ul.social li {
-    list-style: none;
-    display: inline-block;
-    margin-right: 16px;
-}
-
-ul.social li a {
+.link {
     display: block;
-    margin: 0;
-    padding: 18px 18px 18px 18px;
-    text-decoration: none;
-    color: #fff;
-    font-size: 30px;
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
+    width: 100%;
+    height: 200px;
 }
 
 /* http://brandcolors.net/ */
-.icon-facebook {
-    background-color: #3b5998;
+.facebook {
+    background: #3b5998 url("../img/icons/iconmonstr-facebook-icon-256.png") no-repeat center center;
+    background-size: 120px 120px;
 }
-.icon-twitter {
-    background-color: #00acee;
+.twitter {
+    background: #00acee url("../img/icons/iconmonstr-twitter-icon-256.png") no-repeat center center;;
+    background-size: 120px 120px;
 }
-.icon-linkedin {
-    background-color: #0e76a8;
+.linkedin {
+    background: #0e76a8 url("../img/icons/iconmonstr-linkedin-icon-256.png") no-repeat center center;;
+    background-size: 120px 120px;
 }
-.icon-github {
-    background-color: #171515;
+.github {
+    background: #171515 url("../img/icons/iconmonstr-github-icon-256.png") no-repeat center center;;
+    background-size: 120px 120px;
+}
+.wordpress {
+    background: #21759b url("../img/icons/iconmonstr-wordpress-icon-256.png") no-repeat center center;;
+    background-size: 120px 120px;
+}
+.fivehunpx {
+    background: #0099e5 url("../img/icons/iconmonstr-500px-icon-256.png") no-repeat center center;;
+    background-size: 120px 120px;
+}
+.delicious {
+    background: #3399ff url("../img/icons/iconmonstr-delicious-icon-256.png") no-repeat center center;;
+    background-size: 120px 120px;
+}
+.instagram {
+    background: #3f729b url("../img/icons/iconmonstr-instagram-6-icon-256.png") no-repeat center center;;
+    background-size: 120px 120px;
 }
 
